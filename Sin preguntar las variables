@@ -9,7 +9,7 @@ signed main(){
     long double coeficiente = 0.44;
     long double area_frontal = pi*0.06*0.06;
     long double paso_tiempo = 1000000; //Esto es 1/paso_tiempo, porque después lo divido.
-    long double altura = 0.0000000000001;
+    long double altura = 2.1;
     long double vel_salida = 14;
     long double ang = pi*(37)/180;
     long double distancia = 0;
