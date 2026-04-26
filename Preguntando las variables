@@ -8,7 +8,7 @@ signed main(){
     long double masa = 7.26;
     long double coeficiente = 0.44;
     long double area_frontal = pi*0.06*0.06;
-    long double paso_tiempo = 1000000; //Esto es 1/paso_tiempo, porque después lo divido.
+    long double paso_tiempo = 1000000;
     cout << "Con las medidas del sistema internacional a menos que se diga lo contrario y con un punto antes de los decimales introduce." << endl << "Altura inicial: ";
     long double altura; cin >> altura;
     if(altura <= 0){
